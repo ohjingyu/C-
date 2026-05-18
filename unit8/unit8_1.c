@@ -12,7 +12,7 @@ int main()
                                   // long double은 숫자 뒤에 l 을 붙임
 
     
-    //printf("%f %f %lf\n",num1,num2,num3);
+    printf("%f %f %lf\n",num1,num2,num3);
     // float, double은 %f로 출력 하고 long double의 경우 %lf로 출력 함
     
 
