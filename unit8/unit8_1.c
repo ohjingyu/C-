@@ -15,6 +15,15 @@ int main()
     printf("%f %f %lf\n",num1,num2,num3);
     // float, double은 %f로 출력 하고 long double의 경우 %lf로 출력 함
     
+    float num4 = 3.e5f; // 지수표기 법으로 300000을 표기
+
+    double num5 = -1.3827e-2; // 지수표기 법으로 -0.013827을 표기
+
+    long double num6 = 5.12e+9l; // 지수표기 법으로 5120000000을 표기
+    
+    printf("%f %f %lf\n",num4,num5,num6); // 실수로 표기시에는 %f
+    printf("%e %e %le\n",num4,num5,num6); // 지수로 표기시에는 %e long인경우에는 %le
+    
 
     return 0;
 }
